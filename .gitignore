@@ -1,0 +1,8 @@
+/.idea
+
+/db.sqlite3
+/venv
+/mailadmin/
+
+# exclude python caches from git
+__pycache__
