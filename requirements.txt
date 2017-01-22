@@ -1,1 +1,1 @@
--e git+git@github.com:thommyhh/django-mailadmin.git#egg=django-mailadmin
+-e git+https://github.com/thommyhh/django-mailadmin.git#egg=django-mailadmin

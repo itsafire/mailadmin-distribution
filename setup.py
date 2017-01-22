@@ -1,8 +1,8 @@
 import os
 from setuptools import find_packages, setup
 
-#with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
-#    README = readme.read()
+with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
+    README = readme.read()
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -17,7 +17,7 @@ setup(
     include_package_data=True,
     license='BSD-3-Clause',  # example license
     description='A default distribution containing the django-maiadmin app.',
-#    long_description=README,
+    long_description=README,
     url='https://www.kapp-hamburg.de/mailadmin/',
     author='Thorben Nissen',
     author_email='thorben.nissen@kapp-hamburg.de',
