@@ -24,4 +24,4 @@ Quick start
 
 8. Start the development server: `python manage.py runserver`
 
-9. Open http://localhost:8000/mailadin/ and log in with your admin user
+9. Open http://localhost:8000/mailadmin/ and log in with your admin user
